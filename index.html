@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html ng-app lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8">
   <title>QuizzRun</title>
@@ -18,21 +18,20 @@
         <div class="col-md-3 d-flex justify-content-center"></div>
         </div>
         <div class="row">
-          <div class="col-md-12"></div>
+          <div class="col-md-12 pseudo d-flex justify-content-center" id="pseudo">TON PSEUDO</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+          <form><input type="text" id="txt" ng-model="player"></form>
           </div>
-          <p class="pseudo d-flex justify-content-center" id="pseudo">TON PSEUDO</p>
-          <div class="row">
-          <div class="col-md-12 d-flex justify-content-center"><input type="text" id="txt" name="pseudo" ng-value=""></div>
         </div>
-      </div>
       <div class="row">
         <div class="col-md-3 d-flex justify-content-center"></div>
         <div class= "col-md-6 d-flex justify-content-center">
-          <button type="button" class="btn btn-link"id="check">GO</button>
+          <button type="button" class="btn btn-dark"id="check">GO</button>
         </div>
         <div class="col-md-3 d-flex justify-content-center"></div>
         </div>
-      </div>
   </section>
     <section  id="result">
       <div class="row">
@@ -40,11 +39,20 @@
           <img src="assets/img/conf.gif" alt="accueil" id="quizz">
         </div>
       </div>
+        <div class="row">
+          <div class="col-md-3 d-flex justify-content-center"></div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <p>Le gagnant est : </p>
+            <p>" {{player}} "</p>
+          </div>
+      <div class="col-md-3 d-flex justify-content-center"></div>
+    </div>
       <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
           <img src="assets/img/index.jpeg" alt="accueil" id="win">
         </div>
       </div>
+      <button type="button" class="btn btn-dark"id="end">GO</button>
     </section>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

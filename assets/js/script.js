@@ -1,13 +1,11 @@
-// $(".bg-danger").hide();
-//   $(".bg-secondary").hide();
-//   $(".bg-info").hide();
-//   $(".bg-dark").hide();
-//
+$(function(){
+  $("#home").hide();
+  $("#them").hide();
+  $("#synchro").hide();
+  $("#question").hide();
+  // $("#result").hide();
 
-  function(){
-    $("#check").clickval("#txt");
-          var essai = $("#txt").val();
-              alert(essai);
-
-  });
-  }
+  $("#end").click(function(){
+    $("#home").removeAttr("hide").addAttr("show");
+  })
+})
