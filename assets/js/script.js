@@ -34,7 +34,7 @@ $(function(){
     $("#answers").show();
   });
 
-  $(".btn-block").click(function(){
+  $(".buton").click(function(){
     $("#answers").hide();
     $("#result").show();
   });

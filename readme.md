@@ -1,4 +1,4 @@
-Règles du Jeux
+Règles du Jeu
 
 Quizz'Run a tout d'un jeu qui fait le buzz ! Partout, ce jeu connaîtra un succès impressionnant.
 

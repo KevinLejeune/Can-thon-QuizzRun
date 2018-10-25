@@ -101,7 +101,7 @@
       "goodAnswer": "Responsive"
     }
   },
-  "Video Game": {
+  "VideoGame": {
     "1": {
       "question": "Qui est la fidèle monture de mario ?",
       "answers": {
@@ -203,7 +203,7 @@
       "goodAnswer": "Un bandicoot"
     }
   },
-  "web culture": {
+  "webCulture": {
     "1": {
       "question": "Quel texte référence en matière de protection des données au niveau européen est entré en vigueur le 25 mai 2018 ?",
       "answers": {
