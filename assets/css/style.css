@@ -19,4 +19,22 @@
 }
 #gnt{
   text-align: center;
+
+#hello{
+  height: 336px;
+  background-color: green;
+  text-align: center;
+}
+
+#category{
+  margin: 20px auto 20px auto;
+}
+
+.categoryChoice{
+  height: 100px;
+  background: #0e2a7e;
+}
+
+.categoryChoice:hover {
+  background: hsla(225, 79%, 27%, 0.71);
 }
