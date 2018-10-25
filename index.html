@@ -4,52 +4,44 @@
     <meta charset="utf-8">
     <title>QuizzRun</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
   </head>
-  <body>
+  <body ng-app="quizz">
     <div class="container-fluid">
-      <section id="answers">
+      <section ng-controller="myCtrl" id="answers">
         <div  id="size" class="row">
-          <div class="offset-2 col-8 offset-2 align-self-center">
-            <div class="timer">
-    <div class="circle-timer">
-        <div class="timer-slot">
-            <div class="timer-lt"> </div>
-        </div>
-        <div class="timer-slot">
-            <div class="timer-rt"></div>
-        </div>
-        <div class="count"></div>
-    </div>
-</div>
+          <div class="offset-2 col-8 offset-2" id="countdown">
+            <div id="countdown-number"></div>
+              <svg>
+                <circle r="78" cx="80" cy="80"></circle>
+              </svg>
           </div>
         </div>
         <div id="size1" class="row">
           <div class="offset-1 col-10 offset-1 align-self-center">
-            <p class="text-center">
-              Qu'en pensez-vous?
+            <p class="text-center" style="font-size: 20px;font-style:bold;color: white">
+            {{text.programmation.1.question}}
             </p>
           </div>
         </div>
         <div id="size2" class="row">
           <div class="col-6">
-            <button type="button" class="btn btn-primary btn-block">answers</button>
+            <button type="button" ng-value="{{text.programmation.1.answers.1}}" class="btn btn-block" ng-click="answers()">{{text.programmation.1.answers.1}}</button>
           </div>
           <div class="col-6">
-            <button type="button" class="btn btn-primary btn-block">answers</button>
+            <button type="button" ng-value="{{text.programmation.1.answers.2}}" class="btn btn-block" ng-click="answers1()">{{text.programmation.1.answers.2}}</button>
           </div>
         </div>
         <div id="size3" class="row">
           <div class="col-6">
-            <button type="button" class="btn btn-primary btn-block">answers</button>
+            <button type="button" ng-value="{{text.programmation.1.answers.3}}" class="btn btn-block" ng-click="answers2()">{{text.programmation.1.answers.3}}</button>
           </div>
           <div class="col-6">
-            <button type="button" class="btn btn-primary btn-block">answers</button>
+            <button type="button" ng-value="{{text.programmation.1.answers.4}}" class="btn btn-block" ng-click="answers3()">{{text.programmation.1.answers.4}}</button>
           </div>
         </div>
       </section>
-    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>

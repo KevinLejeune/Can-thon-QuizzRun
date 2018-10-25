@@ -1,25 +1,21 @@
-var initialCount 	= 9,
- 	  count 			  = initialCount,
- 	  timerPause		= false;
+//JSON
 
-function timer() {
-	if (!timerPause) {
-	  	count = count - 1;
-	  	if (count <= -1) {
-	  		count = initialCount;
-	        var el = $(".circle-timer");
-	        el.before( el.clone(true) ).remove();
-	  	}
-	  	$(".timer .count").text(count);
-  	}
-}
-setInterval(timer, 1000);
-
-$(".circle-timer").click( function(){
-	$(this).toggleClass('paused');
-	if ($(this).hasClass('paused')) {
-		timerPause = true;
-	} else {
-		timerPause = false;
-	}
+var app = angular.module('quizz', []);
+app.controller('myCtrl', function($scope, $http) {
+    $http.get("questions.json")
+    .then(function(res) {
+        $scope.text = res.data;
+    });
 });
+
+// TIMER
+var countdownNumberEl = document.getElementById('countdown-number');
+var countdown = 15;
+
+countdownNumberEl.textContent = countdown;
+
+setInterval(function() {
+  countdown = --countdown <= 0 ? 15 : countdown;
+
+  countdownNumberEl.textContent = countdown;
+}, 1000);
