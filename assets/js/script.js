@@ -1,8 +1,7 @@
 //JSON
-
-var app = angular.module('quizz', []);
+var app = angular.module("quizz", []);
 app.controller('myCtrl', function($scope, $http) {
-    $http.get("questions.json")
+    $http.get("assets/js/question.json")
     .then(function(res) {
         $scope.text = res.data;
     });
@@ -21,10 +20,9 @@ setInterval(function() {
 }, 1000);
 
 $(function(){
-  $("#home").hide();
-  $("#them").hide();
-  $("#synchro").hide();
-  $("#question").hide();
+  // $("#them").hide();
+  // $("#synchro").hide();
+  // $("#answers").hide();
   // $("#result").hide();
 
   $("#end").click(function(){

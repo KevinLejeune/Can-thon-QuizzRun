@@ -99,7 +99,7 @@
         "4": "Radioactive"
       },
       "goodAnswer": "Responsive"
-    },
+    }
   },
   "Video Game": {
     "1": {
@@ -201,7 +201,7 @@
         "4": "Une loutre"
       },
       "goodAnswer": "Un bandicoot"
-    },
+    }
   },
   "web culture": {
     "1": {
@@ -303,8 +303,7 @@
             "4": "250$"
           },
           "goodAnswer": "250$"
-          }
-}
+        }
     },
     "4": {
       "question": "Quel site était le plus visité en 2004 selon alexa ?",
@@ -377,4 +376,3 @@
       "goodAnswer": "250$"
     }
   }
-}
