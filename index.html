@@ -8,8 +8,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
   </head>
   <body>
-    <div class="container">
-
+    <div class="container-fluid">
+      <section id="them">
+        <div class="row" id="hello">
+          <div class="offset-1 col-10">
+            <br><p>Salut {{ name }}, viens affronter les connaissances de tes amis dans le numérique de façon ludique</p>
+            <br><p>10 questions avec un chrono de 15 secondes max par question. Qui aura le plus de point ?</p>
+          </div>
+        </div>
+        <div class="row" id="asks">
+          <div class="col-12" id="category">
+            <button type="button" class="btn btn-primary btn-block categoryChoice">Jeux vidéos</button>
+          </div>
+          <div class="col-12" id="category">
+            <button type="button" class="btn btn-primary btn-block categoryChoice">Programmation</button>
+          </div>
+          <div class="col-12" id="category">
+            <button type="button" class="btn btn-primary btn-block categoryChoice">Culture web</button>
+          </div>
+        </div>
+      </section>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
