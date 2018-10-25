@@ -1,0 +1,22 @@
+#size{
+  height: 300px;
+}
+#size1{
+  height: 200px;
+  background-color: hsla(0, 0%, 63%, 0.31);
+  border-radius: 5px;
+  margin: 20px;
+}
+#size2{
+  height: 118px;
+}
+#size3{
+  height: 118px;
+}
+.btn {
+  height: 100px;
+  background: #0e2a7e;
+}
+.btn:hover {
+  background: hsla(225, 79%, 27%, 0.71);
+}
