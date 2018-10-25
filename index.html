@@ -1,19 +1,115 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>QuizzRun</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
-  </head>
-  <body>
-    <div class="container">
-
+<html ng-app lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>QuizzRun</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <section id="home">
+      <div class="row">
+        <div class="col-md-3 d-flex justify-content-center"></div>
+        <div class= "col-md-6 d-flex justify-content-center">
+          <img src="assets/img/quizz.png" alt="accueil" id="quizz">
+        </div>
+        <div class="col-md-3 d-flex justify-content-center"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 pseudo d-flex justify-content-center" id="pseudo">TON PSEUDO</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+          <form><input type="text" id="txt" ng-model="player"></form>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-3 d-flex justify-content-center"></div>
+        <div class= "col-md-6 d-flex justify-content-center">
+          <button type="button" class="btn btn-dark"id="check">GO</button>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center"></div>
+        </div>
+  </section>
+    <section id="them">
+        <div class="row" id="hello">
+          <div class="offset-1 col-10">
+            <br><p>Salut {{ name }}, viens affronter les connaissances de tes amis dans le numérique de façon ludique</p>
+            <br><p>10 questions avec un chrono de 15 secondes max par question. Qui aura le plus de point ?</p>
+          </div>
+        </div>
+        <div class="row" id="asks">
+          <div class="col-12" id="category">
+            <button type="button" class="btn btn-primary btn-block categoryChoice">Jeux vidéos</button>
+          </div>
+          <div class="col-12" id="category">
+            <button type="button" class="btn btn-primary btn-block categoryChoice">Programmation</button>
+          </div>
+          <div class="col-12" id="category">
+            <button type="button" class="btn btn-primary btn-block categoryChoice">Culture web</button>
+          </div>
+        </div>
+      </section>
+    <section  id="result">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <img src="assets/img/conf.gif" alt="accueil" id="quizz">
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-3 d-flex justify-content-center"></div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <p>Le gagnant est : </p>
+            <p>" {{player}} "</p>
+          </div>
+      <div class="col-md-3 d-flex justify-content-center">
+       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <img src="assets/img/index.jpeg" alt="accueil" id="win">
+        </div>
+      </div>
+      <button type="button" class="btn btn-dark"id="end">GO</button>
+    </section>
+          <section ng-controller="myCtrl" id="answers">
+        <div  id="size" class="row">
+          <div class="offset-2 col-8 offset-2" id="countdown">
+            <div id="countdown-number"></div>
+              <svg>
+                <circle r="78" cx="80" cy="80"></circle>
+              </svg>
+          </div>
+        </div>
+        <div id="size1" class="row">
+          <div class="offset-1 col-10 offset-1 align-self-center">
+            <p class="text-center" style="font-size: 20px;font-style:bold;color: white">
+            {{text.programmation.1.question}}
+            </p>
+          </div>
+        </div>
+        <div id="size2" class="row">
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.1}}" class="btn btn-block" ng-click="answers()">{{text.programmation.1.answers.1}}</button>
+          </div>
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.2}}" class="btn btn-block" ng-click="answers1()">{{text.programmation.1.answers.2}}</button>
+          </div>
+        </div>
+        <div id="size3" class="row">
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.3}}" class="btn btn-block" ng-click="answers2()">{{text.programmation.1.answers.3}}</button>
+          </div>
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.4}}" class="btn btn-block" ng-click="answers3()">{{text.programmation.1.answers.4}}</button>
+          </div>
+        </div>
+      </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
 </html>
