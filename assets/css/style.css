@@ -1,0 +1,19 @@
+#quizz{
+  margin-top: 20%;
+  height: 282px;
+  width: 90%;
+}
+#pseudo{
+  margin-top: 17%;
+}
+#go{
+  margin-top: 10%;
+  height: 80px;
+  width: 50%;
+}
+#check{
+  margin-top: 6%;
+  height: 60px;
+  width: 30%;
+  border-radius: 260px;
+}

@@ -203,7 +203,7 @@
       "goodAnswer": "Un bandicoot"
     },
   },
-    "web culture": {
+  "web culture": {
     "1": {
       "question": "Quel texte référence en matière de protection des données au niveau européen est entré en vigueur le 25 mai 2018 ?",
       "answers": {
@@ -233,76 +233,76 @@
         "4": "Un métamoteur"
       },
       "goodAnswer": "Un annuaire"
+    },
+    "4": {
+      "question": "Quel site était le plus visité en 2004 selon alexa ?",
+      "answers": {
+        "1": "Google",
+        "2": "Yahoo",
+        "3": "Skyrock",
+        "4": "MSN"
       },
-      "4": {
-        "question": "Quel site était le plus visité en 2004 selon alexa ?",
-        "answers": {
-          "1": "Google",
-          "2": "Yahoo",
-          "3": "Skyrock",
-          "4": "MSN"
-        },
-        "goodAnswer": "Yahoo"
+      "goodAnswer": "Yahoo"
+    },
+    "5": {
+      "question": "Quel est le surnom du duo Steve Jobs/Bill Gates ?",
+      "answers": {
+        "1": "Le hippie et le geek",
+        "2": "Le commercial et l’intellectuel",
+        "3": "Le manipulateur et le visionnaire",
+        "4": "Le renard et le lievre"
       },
-      "5": {
-        "question": "Quel est le surnom du duo Steve Jobs/Bill Gates ?",
-        "answers": {
-          "1": "Le hippie et le geek",
-          "2": "Le commercial et l’intellectuel",
-          "3": "Le manipulateur et le visionnaire",
-          "4": "Le renard et le lievre"
-        },
-        "goodAnswer": "Le hippie et le geek"
+      "goodAnswer": "Le hippie et le geek"
+    },
+    "6": {
+      "question": "Que vendait exclusivement Amazon à ses débuts ?",
+      "answers": {
+        "1": "Des accessoires informatique",
+        "2": "Des légumes",
+        "3": "Des jouets pour enfants",
+        "4": "Des livres"
       },
-      "6": {
-        "question": "Que vendait exclusivement Amazon à ses débuts ?",
-        "answers": {
-          "1": "Des accessoires informatique",
-          "2": "Des légumes",
-          "3": "Des jouets pour enfants",
-          "4": "Des livres"
-        },
-        "goodAnswer": "Des livres"
+      "goodAnswer": "Des livres"
+    },
+    "7": {
+      "question": "Quel logiciel est principalement utilisé pour la création des logos ?",
+      "answers": {
+        "1": "Illustrator",
+        "2": "Photoshop",
+        "3": "Indesign",
+        "4": "Adobe premiere"
       },
-      "7": {
-        "question": "Quel logiciel est principalement utilisé pour la création des logos ?",
-        "answers": {
-          "1": "Illustrator",
-          "2": "Photoshop",
-          "3": "Indesign",
-          "4": "Adobe premiere"
-        },
-        "goodAnswer": "Illustrator"
-        },
-        "8": {
-          "question": "En quelle année est sorti le premier Iphone ?",
-          "answers": {
-            "1": "2005",
-            "2": "2007",
-            "3": "2009",
-            "4": "2011"
-          },
-          "goodAnswer": "2007"
-        },
-        "9": {
-          "question": "Grâce à quel virus un hacker peut-il prendre possession de votre ordinateur ?",
-          "answers": {
-            "1": "Adware",
-            "2": "Trojan",
-            "3": "Malware",
-            "4": "DDOS"
-          },
-          "goodAnswer": "Trojan"
-        },
-        "10": {
-          "question": "Combien gagne Bill Gates par seconde ?",
-          "answers": {
-            "1": "2$",
-            "2": "10$",
-            "3": "50$",
-            "4": "250$"
-          },
-          "goodAnswer": "250$"
-          }
-}
+      "goodAnswer": "Illustrator"
+    },
+    "8": {
+      "question": "En quelle année est sorti le premier Iphone ?",
+      "answers": {
+        "1": "2005",
+        "2": "2007",
+        "3": "2009",
+        "4": "2011"
+      },
+      "goodAnswer": "2007"
+    },
+    "9": {
+      "question": "Grâce à quel virus un hacker peut-il prendre possession de votre ordinateur ?",
+      "answers": {
+        "1": "Adware",
+        "2": "Trojan",
+        "3": "Malware",
+        "4": "DDOS"
+      },
+      "goodAnswer": "Trojan"
+    },
+    "10": {
+      "question": "Combien gagne Bill Gates par seconde ?",
+      "answers": {
+        "1": "2$",
+        "2": "10$",
+        "3": "50$",
+        "4": "250$"
+      },
+      "goodAnswer": "250$"
+    }
+  }
 }
