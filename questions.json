@@ -1,0 +1,309 @@
+{
+	"programmation": {
+		"1": {
+			"question": "Quel est le doctype d'un document HTML5 ?",
+			"answers": {
+				"1": "<!DOCTYPE html5>",
+				"2": "<!DOCTYPE html>",
+				"3": "<!DOCGYNECO html>",
+				"4": "<!DOCTYPE html5 prog>"
+			},
+			"goodAnswer": "<!DOCTYPE html>"
+		},
+		"2": {
+			"question": "A quoi sert la balise <br> ?",
+			"answers": {
+				"1": "Barrer le texte",
+				"2": "Sauter une ligne",
+				"3": "Mettre une bordure",
+				"4": "Ecrire br"
+			},
+			"goodAnswer": "Sauter une ligne"
+		},
+		"3": {
+			"question": "Que signifie CSS ?",
+			"answers": {
+				"1": "Cascading Style Sheets",
+				"2": "Create Simple Samples",
+				"3": "Choucroute et Saucisse de Strasbourg",
+				"4": "Computer Sorry Shit"
+			},
+			"goodAnswer": "Cascading Style Sheets"
+		},
+		"4": {
+			"question": "A quoi sert le langage CSS ?",
+			"answers": {
+				"1": "Réaliser des pages dynamiques",
+				"2": "Ajouter du style au document Web",
+				"3": "Contacter des SS",
+				"4": "Inserer du contenu a un site"
+			},
+			"goodAnswer": "Ajouter du style au document Web"
+		},
+		"5": {
+			"question": "Que signifie PHP ?",
+			"answers": {
+				"1": "Protection Helping Phoques",
+				"2": "Page Helper Process",
+				"3": "Programming Home Pages",
+				"4": "PHP: Hypertext Preprocessor"
+			},
+			"goodAnswer": "PHP: Hypertext Preprocessor"
+		},
+		"6": {
+			"question": "En langage HTML, à quoi correspond une balise <a> ? ",
+			"answers": {
+				"1": "Une image",
+				"2": "Un lien",
+				"3": "Une animation",
+				"4": "Un texte en gras"
+			},
+			"goodAnswer": "Un lien"
+		},
+		"7": {
+			"question": "Lequel est un langage de programmation ?",
+			"answers": {
+				"1": "C++",
+				"2": "AB+",
+				"3": "0-",
+				"4": "B+"
+			},
+			"goodAnswer": "C++"
+		},
+		"8": {
+			"question": "Comment declare t-on une variable ?",
+			"answers": {
+				"1": "var",
+				"2": "variable",
+				"3": "iable",
+				"4": "Une quoi ?"
+			},
+			"goodAnswer": "var"
+		},
+		"9": {
+			"question": "En programmation, qu'est ce que la concatenation ? ",
+			"answers": {
+				"1": "Addition de plusieurs chaines de caracteres",
+				"2": "Encore un de leur mot chelou",
+				"3": "Recyclage de donnees",
+				"4": "Reduire le code en petits fragments"
+			},
+			"goodAnswer": "Addition de plusieurs chaines de caracteres"
+		},
+		"10": {
+			"question": "Quand un site s'adapte a toutes sortes d'ecrans, il est :",
+			"answers": {
+				"1": "Adaptatif",
+				"2": "Attractif",
+				"3": "Responsive",
+				"4": "Radioactive"
+			},
+			"goodAnswer": "Responsive"
+		}
+	},
+	"Video Game": {
+		"1": {
+			"question": "Qui est la fidèle monture de mario ?",
+			"answers": {
+				"1": "Un crocodile",
+				"2": "Un dinosaure",
+				"3": "Yoshi",
+				"4": "Birbo"
+			},
+			"goodAnswer": "Yoshi"
+		},
+		"2": {
+			"question": "Quel personnage n'est pas présent dans 'Tekken' ?",
+			"answers": {
+				"1": "Shirota",
+				"2": "Paul Phoenix",
+				"3": "Yoshimitsu",
+				"4": "Teddy Riner"
+			},
+			"goodAnswer": "Teddy Riner"
+		},
+		"3": {
+			"question": "Combien de fantômes y a-t-il dans 'PacMan' ?",
+			"answers": {
+				"1": "3",
+				"2": "4",
+				"3": "5",
+				"4": "6"
+			},
+			"goodAnswer": "4"
+		},
+		"4": {
+			"question": "Qui est le celebre mechant dans Zelda",
+			"answers": {
+				"1": "M. Bison",
+				"2": "Ganondorf",
+				"3": "Akuma",
+				"4": "Matata"
+			},
+			"goodAnswer": "Ganondorf"
+		},
+		"5": {
+			"question": "La Megadrive a ete creee par ? ",
+			"answers": {
+				"1": "Nintendo",
+				"2": "Sega",
+				"3": "Sony",
+				"4": "Microsoft"
+			},
+			"goodAnswer": "Sega"
+		},
+		"6": {
+			"question": "Quel est le jeux le plus vendu de tous les temps ?",
+			"answers": {
+				"1": "Tetris",
+				"2": "Minecraft",
+				"3": "Super Mario Bross",
+				"4": "Pokemon Rouge et Bleu"
+			},
+			"goodAnswer": "Tetris"
+		},
+		"7": {
+			"question": "Quellen est la console la plus vendue au monde ?",
+			"answers": {
+				"1": "Nintendo DS",
+				"2": "Playstation 2",
+				"3": "Game Boy / Game Boy color",
+				"4": "Xbox 360"
+			},
+			"goodAnswer": "Playstation 2"
+		},
+		"8": {
+			"question": "Quel est le premier FPS (Jeux de Tir à la Premiere Personne) ?",
+			"answers": {
+				"1": "DOOM",
+				"2": "Counter Strike",
+				"3": "Maze War",
+				"4": "Golden Eye"
+			},
+			"goodAnswer": "Maze War"
+		},
+		"9": {
+			"question": "En quelle année est sortie la Premiere console de Jeux ?",
+			"answers": {
+				"1": "1972",
+				"2": "1976",
+				"3": "1982",
+				"4": "1986"
+			},
+			"goodAnswer": "1972"
+		},
+		"10": {
+			"question": "Quel animal est Crash Bandicoot ?",
+			"answers": {
+				"1": "Un renard",
+				"2": "Un hérisson",
+				"3": "Un bandicoot",
+				"4": "Une loutre"
+			},
+			"goodAnswer": "Un bandicoot"
+		}
+	},
+	"web culture": {
+		"1": {
+			"question": "Quel texte référence en matière de protection des données au niveau européen est entré en vigueur le 25 mai 2018 ?",
+			"answers": {
+				"1": "CNIL",
+				"2": "CGV",
+				"3": "HADOPI",
+				"4": "RGPD"
+			},
+			"goodAnswer": "RGPD"
+		},
+		"2": {
+			"question": "Comment appelle-t-on les compétences techniques des candidats ?",
+			"answers": {
+				"1": "Work Skills",
+				"2": "Soft Skills",
+				"3": "Work Qualification",
+				"4": "Soft Qualification"
+			},
+			"goodAnswer": "Soft SKills"
+		},
+		"3": {
+			"question": "YAHOO était au départ ?",
+			"answers": {
+				"1": "Un tchat ",
+				"2": "Un site d'annonce",
+				"3": "Un annuaire",
+				"4": "Un métamoteur"
+			},
+			"goodAnswer": "Un annuaire"
+		},
+		"4": {
+			"question": "Quel site était le plus visité en 2004 selon alexa ?",
+			"answers": {
+				"1": "Google",
+				"2": "Yahoo",
+				"3": "Skyrock",
+				"4": "MSN"
+			},
+			"goodAnswer": "Yahoo"
+		},
+		"5": {
+			"question": "Quel est le surnom du duo Steve Jobs/Bill Gates ?",
+			"answers": {
+				"1": "Le hippie et le geek",
+				"2": "Le commercial et l’intellectuel",
+				"3": "Le manipulateur et le visionnaire",
+				"4": "Le renard et le lievre"
+			},
+			"goodAnswer": "Le hippie et le geek"
+		},
+		"6": {
+			"question": "Que vendait exclusivement Amazon à ses débuts ?",
+			"answers": {
+				"1": "Des accessoires informatique",
+				"2": "Des légumes",
+				"3": "Des jouets pour enfants",
+				"4": "Des livres"
+			},
+			"goodAnswer": "Des livres"
+		},
+		"7": {
+			"question": "Quel logiciel est principalement utilisé pour la création des logos ?",
+			"answers": {
+				"1": "Illustrator",
+				"2": "Photoshop",
+				"3": "Indesign",
+				"4": "Adobe premiere"
+			},
+			"goodAnswer": "Illustrator"
+		},
+		"8": {
+			"question": "En quelle année est sorti le premier Iphone ?",
+			"answers": {
+				"1": "2005",
+				"2": "2007",
+				"3": "2009",
+				"4": "2011"
+			},
+			"goodAnswer": "2007"
+		},
+		"9": {
+			"question": "Grâce à quel virus un hacker peut-il prendre possession de votre ordinateur ?",
+			"answers": {
+				"1": "Adware",
+				"2": "Trojan",
+				"3": "Malware",
+				"4": "DDOS"
+			},
+			"goodAnswer": "Trojan"
+		},
+		"10": {
+			"question": "Combien gagne Bill Gates par seconde ?",
+			"answers": {
+				"1": "2$",
+				"2": "10$",
+				"3": "50$",
+				"4": "250$"
+			},
+			"goodAnswer": "250$"
+		}
+	}
+
+}

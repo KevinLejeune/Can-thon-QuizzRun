@@ -74,6 +74,39 @@
       </div>
       <button type="button" class="btn btn-dark"id="end">GO</button>
     </section>
+          <section ng-controller="myCtrl" id="answers">
+        <div  id="size" class="row">
+          <div class="offset-2 col-8 offset-2" id="countdown">
+            <div id="countdown-number"></div>
+              <svg>
+                <circle r="78" cx="80" cy="80"></circle>
+              </svg>
+          </div>
+        </div>
+        <div id="size1" class="row">
+          <div class="offset-1 col-10 offset-1 align-self-center">
+            <p class="text-center" style="font-size: 20px;font-style:bold;color: white">
+            {{text.programmation.1.question}}
+            </p>
+          </div>
+        </div>
+        <div id="size2" class="row">
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.1}}" class="btn btn-block" ng-click="answers()">{{text.programmation.1.answers.1}}</button>
+          </div>
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.2}}" class="btn btn-block" ng-click="answers1()">{{text.programmation.1.answers.2}}</button>
+          </div>
+        </div>
+        <div id="size3" class="row">
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.3}}" class="btn btn-block" ng-click="answers2()">{{text.programmation.1.answers.3}}</button>
+          </div>
+          <div class="col-6">
+            <button type="button" ng-value="{{text.programmation.1.answers.4}}" class="btn btn-block" ng-click="answers3()">{{text.programmation.1.answers.4}}</button>
+          </div>
+        </div>
+      </section>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
