@@ -52,29 +52,7 @@
         </div>
       </div>
     </section>
-    <section id="result">
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-center">
-          <img src="assets/img/conf.gif" alt="accueil" id="quizz">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 d-flex justify-content-center"></div>
-        <div class="col-md-6 d-flex justify-content-center">
-          <p>Le gagnant est : </p>
-          <p>" {{player}} "</p>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-center">
-          <img src="assets/img/index.jpeg" alt="accueil" id="win">
-        </div>
-      </div>
-      <button type="button" class="btn btn-dark" id="end">GO</button>
-    </section>
-    <section ng-controller="myCtrl" id="answers">
+    <section id="answers" ng-controller="myCtrl">
       <div id="size" class="row">
         <div class="offset-2 col-8 offset-2" id="countdown">
           <div id="countdown-number"></div>
@@ -107,9 +85,32 @@
         </div>
       </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
-  </html>
+    <section id="result">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <img src="assets/img/conf.gif" alt="accueil" id="quizz">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 d-flex justify-content-center"></div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <p>Le gagnant est : </p>
+          <p>" {{player}} "</p>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <img src="assets/img/index.jpeg" alt="accueil" id="win">
+        </div>
+      </div>
+      <button type="button" class="btn btn-dark" id="end">GO</button>
+    </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

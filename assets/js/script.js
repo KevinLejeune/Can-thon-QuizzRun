@@ -20,12 +20,27 @@ setInterval(function() {
 }, 1000);
 
 $(function(){
-  // $("#them").hide();
-  // $("#synchro").hide();
-  // $("#answers").hide();
-  // $("#result").hide();
+  $("#them").hide();
+  $("#answers").hide();
+  $("#result").hide();
+
+  $("#check").click(function(){
+    $("#home").hide();
+    $("#them").show();
+  });
+
+  $("#category").click(function(){
+    $("#them").hide();
+    $("#answers").show();
+  });
+
+  $(".btn-block").click(function(){
+    $("#answers").hide();
+    $("#result").show();
+  });
 
   $("#end").click(function(){
-    $("#home").removeAttr("hide").addAttr("show");
-  })
+    $("#result").hide();
+    $("#home").show();
+  });
 })
